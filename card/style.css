@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+VN:wght@100..400&display=swap');
+
+
+
+
+*{margin: 0%; padding: 0%;}
+
+body{
+    background-image:url(./img/bg2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: ('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+VN:wght@100..400&display=swap');
+
+}
+
+
+img{
+    width: 100%;
+}
+
+.card{
+    width: 20rem;
+    color: rgb(255, 255, 255);
+    background: rgba(167, 136, 0, 0.5);
+    margin: 10rem auto;
+    border-radius: 10px;
+}
+
+.content{
+    padding: 1rem;
+    
+}
+.content p {
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+input{
+    border: none;
+    padding: .5rem .5rem;
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(49, 34, 1), rgb(233, 169, 8), rgb(52, 34, 1) );
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 4px 6px rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.card img{
+    border-radius: 10px 10px 50% 0;
+}
+
+.content h3 { 
+    margin-top: -3rem;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+}

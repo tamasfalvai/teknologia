@@ -1,0 +1,307 @@
+body{
+    background: #343a40;
+    background-image: url(./imidzsgy/cy.png);
+    background-attachment: fixed;
+    text-align: justify;
+}
+
+
+header{
+    background-image: url(./imidzsgy/cy.png);
+    background-attachment: fixed;
+    height: 1000px;
+}
+
+
+
+nav ul li {
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    padding: 0 40px ;
+    font-size: 30px;
+    color: #ced4da;
+    text-shadow:4px 4px 15px  #ced4da;
+    
+    
+}
+
+nav ul li:hover{
+    font-size: 31px;
+    color: #f8f9fa;
+    text-decoration:none;
+    height: 900px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-shadow:6px 6px 4px  #ffffff;
+}
+
+nav{
+    text-align: center;
+    height: 50px;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 30px;
+
+}
+
+#pé{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#s1{
+    float: left;
+    width: 19%;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+p{
+    padding: 10px;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 0%;
+    border-radius: 1%;
+}
+
+section{
+    font-size: 19px;
+    padding: 4px;
+    background: #adb5bd;
+    width: 80%;
+    margin: auto;
+    border-radius: 2%;
+}
+
+table{
+    background: #495057;
+    color: #ced4da;
+    text-align: center;
+    border: #212529;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 100px;
+    
+    
+}
+
+
+th{
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 20px;
+
+}
+
+footer{
+    background-image: url(./imidzsgy/cy.png);
+    height: 1000px;
+    background-attachment: fixed;
+}
+
+.tkép{
+    width: 25%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1{
+    text-align:center ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:4px 4px 4px #676a6d;
+    padding-top: 20px;
+}
+
+.jobbo{
+    float: right;
+    width: 25%;
+    padding-left: 10px;
+    border-radius: 5%;
+    padding-right: 10px;
+}
+
+h3{
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+div{
+    padding: 5px;
+
+}
+
+.balo{
+    float: left;
+    width: 25%;
+    border-radius: 5%;
+    padding: 0 10px;
+    padding-top: 50px;
+}
+
+.balo:hover{
+    width: 25.5%;
+}
+
+.jobbo:hover{
+    width: 25.5%;
+}
+
+.vissza{
+    width: 5%;
+    border-radius: 20%;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by faxriddin20 */ 
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: #adb5bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    margin-left: 500px;
+    border-radius: 10%;
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: 0.3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: 0.3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: 0.3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: green;
+    transition-duration: 0.3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.navigation-card {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 50px;
+    float: right;
+    position: fixed;
+    
+  }
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-color: rgb(252, 252, 252);
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .tab:hover {
+    background-color: rgb(223, 223, 223);
+  }
+  
